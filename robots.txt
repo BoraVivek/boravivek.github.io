@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vivekbora.dev/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow crawling of development files
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+
+# Allow crawling of important pages
+Allow: /
+Allow: /about
+Allow: /experience
+Allow: /skills
+Allow: /contact
